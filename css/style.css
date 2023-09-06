@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Open+Sans:wght@300;500&family=Roboto&display=swap");
+
+body {
+  background-image: url("../img/bg-body.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-title h4,
+.work-title h4,
+.about-title h4,
+.service-title h4,
+.help-title h4,
+.contact-title,
+.project-title h4,
+.testimonial-title h4,
+.blog-title h4,
+.meeting-title h4 {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.banner-heading h1,
+.work-heading h1,
+.about-heading h1,
+.service-heading h1,
+.help-heading h1,
+.help-heading h1,
+.testimonial-heading h1,
+.blog-heading h1,
+.meeting-heading h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.logo,
+.footer-logo img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.nav-btn {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.banner-title {
+  background-color: rgb(174, 201, 231);
+  opacity: 0.5;
+  width: 200px;
+}
+
+.banner-text p,
+.about-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+/* .banner-img img {
+    width: 350px;
+} */
+
+.work-area {
+  background-image: url("../img/bg-work.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.work-item i {
+  background-color: rgb(174, 201, 231);
+  opacity: 0.5;
+}
+
+.count-area {
+  background-image: url("../img/bg-count.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .about-img img {
+  width: 350px;
+  height: 320px;
+} */
+
+.service-area {
+  background-image: url("../img/bg-service.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-item h6 {
+  font-size: 14px;
+}
+
+.mail i,
+.phone i {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+}
+
+.contact,
+.project-link {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-label {
+  font-size: 12px;
+}
+
+.team-box img {
+  width: 100%;
+  height: 280px;
+}
+
+.team-box {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  opacity: 0.8;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin-top: -260px;
+}
+
+.overlay h3 {
+  font-size: 15px;
+}
+
+.overlay p {
+  font-size: 14px;
+}
+
+.team-box img:hover + .overlay {
+  display: block;
+}
+
+.project-area {
+  background-image: url("../img/bg-project.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-link {
+  color: white;
+}
+
+.project-link:hover {
+  color: blue;
+}
+
+.project-card img {
+  height: 250px;
+}
+
+.testimonial-area {
+  background-image: url("../img/bg-testimonial.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-icon i {
+  color: blue;
+}
+
+.carousel-icon i:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 30%;
+}
+
+.customer-introduce img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+
+.introduce-desc h4 {
+  font-size: 14px;
+}
+
+.introduce-desc p {
+  font-size: 8px;
+}
+
+.customer-desc p {
+  font-size: 12px;
+}
+
+.star-icon,
+.apple-icon {
+  font-size: 12px;
+}
+
+.blog-area {
+  background-image: url("../img/bg-blog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blog-card-body {
+  background-color: transparent;
+}
+
+.card-title {
+  font-size: 13px;
+}
+
+.post-time {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.blog-card img {
+  height: 170px;
+}
+
+.company-img img {
+  width: 100px;
+  height: 20px;
+  cursor: pointer;
+}
+.company-img img:hover {
+  border-top: 3px solid blue;
+}
+
+.meeting-area {
+  background-image: url("../img/bg-meeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-desc p,
+.footer-list a,
+.footer-last {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.social-icon a i {
+  color: white;
+}
+
+.social-icon a i:hover {
+  color: blue;
+}
+
+.footer-title {
+  font-size: 16px;
+}
